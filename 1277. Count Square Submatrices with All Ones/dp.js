@@ -4,22 +4,22 @@
  */
  var countSquares = function(matrix) {
   
-    int res = 0, H = matrix.length, W = matrix[0].length;
+    let res = 0;
+    const H = matrix.length;
+    const W = matrix[0].length
     
-    for(int y = 0; y < H; y++){
-        for(int x = 0; x < W; x++){
-            if(y == 0 || x == 0) res++;
-            else {
-                if(matrix[y][x] == 1){
-                    matrix[y][x] = Math.min(
-                        matrix[y-1][x-1],
-                        Math.min(
-                            matrix[y-1][x],
-                            matrix[y][x-1]
-                        )
-                    ) + 1;
+    for(let i = 0; i < H; i++){
+        for(let j = 0; j < W; j++){
+            if(matrix[i][j] === 1){
+                if(i === 0 || j === 0) res++
+                else{
+                     matrix[i][j] = Math.min(
+                        matrix[i][j-1],
+                        matrix[i-1][j],
+                        matrix[i-1][j-1]
+                    ) + 1
                     
-                    res += matrix[y][x]
+                    res += matrix[i][j]
                 }
             }
         }
