@@ -25,6 +25,8 @@ https://bigfrontend.dev/problem
 
 [13. Implement a Queue by using Stack](https://bigfrontend.dev/problem/implement-a-queue-by-using-stack) ✅
 
+[14. Implement a general memoization function - `memo()`](https://bigfrontend.dev/problem/implement-general-memoization-function) ✅
+
 [16. create an Event Emitter](https://bigfrontend.dev/problem/create-an-Event-Emitter) ✅
 
 [20. Detect data type in JavaScript](https://bigfrontend.dev/problem/detect-data-type-in-JavaScript) ✅
@@ -32,6 +34,12 @@ https://bigfrontend.dev/problem
 [23. create a sum()](https://bigfrontend.dev/problem/create-a-sum) ✅
 
 [28. implement clearAllTimeout()](https://bigfrontend.dev/problem/implement-clearAllTimeout) ✅
+
+[29. implement async helper - `sequence()`](https://bigfrontend.dev/problem/implement-async-helper-sequence) ✅
+
+[30. implement async helper - `parallel()`](https://bigfrontend.dev/problem/implement-async-helper-parallel) ✅
+
+[31. implement async helper - `race()`](https://bigfrontend.dev/problem/implement-async-helper-race) ✅
 
 [32. implement `Promise.all()`](https://bigfrontend.dev/problem/implement-Promise-all) ✅
 
@@ -47,7 +55,9 @@ https://bigfrontend.dev/problem
 
 [46. implement `_.once()`](https://bigfrontend.dev/problem/implement-once) ✅
 
-[54. flatten Thunk](https://bigfrontend.dev/problem/flatten-Thunk) ✅
+[54. flatten Thunk](https://bigfrontend.dev/problem/flatten-Thunk) ✅ ✅
+
+[59. create a browser history](https://bigfrontend.dev/problem/create-a-browser-history) ✅
 
 ### DOM
 [15. implement a simple DOM wrapper to support method chaining like jQuery](https://bigfrontend.dev/problem/implement-a-simple-DOM-wrapper-to-support-method-chaining-like-jQuery) ✅
